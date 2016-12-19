@@ -3531,6 +3531,10 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
             android:value="com.aosip.owlsnest.gesture.PieSettings" />
         </activity>
+
+        <!-- Gesture Anywhere -->
+        <activity android:name="com.aosip.owlsnest.utils.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.aosip.owlsnest.utils.gestureanywhere.GestureAnywhereCreateGestureActivity" />
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
