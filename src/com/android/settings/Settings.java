@@ -200,4 +200,6 @@ public class Settings extends SettingsActivity {
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
     public static class BatteryLightSettingsActivity extends SettingsActivity { /* empty */ }
     public static class CustomHeadersActivity extends SettingsActivity {}
+
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }

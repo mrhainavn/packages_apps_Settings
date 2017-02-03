@@ -411,4 +411,7 @@
     <!-- Make FP detection in pocket mode configurable -->
     <string name="pocket_judge_fp_title">Fingerabdrucksensor im Taschenmodus zulassen</string>
     <string name="pocket_judge_fp_summary">Auf Fingerabdruck achten, wenn die Taschenerkennung aktiv ist</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Hintergrundprozesse</string>
 </resources>
