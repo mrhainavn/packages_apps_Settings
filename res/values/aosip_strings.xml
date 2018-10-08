@@ -461,4 +461,7 @@
     <!-- Make FP detection in pocket mode configurable -->
     <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
     <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
+
+    <!-- Toolbar -->
+    <string name="settings_head_title">DerpFest</string>
 </resources>
