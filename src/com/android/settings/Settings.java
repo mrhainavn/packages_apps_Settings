@@ -181,6 +181,8 @@ public class Settings extends SettingsActivity {
     public static class PulseSettingsActivity extends SettingsActivity {}
     public static class GamingModeActivity extends SettingsActivity {}
 
+    public static class PieSettingsActivity extends SettingsActivity {}
+
     // AOSiP Settings
     public static class OwlsNestSettingsActivity extends SettingsActivity {}
     public static class HeadsUpCategoryActivity extends SettingsActivity { /* empty */ }

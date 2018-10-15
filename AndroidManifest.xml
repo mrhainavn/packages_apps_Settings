@@ -3518,6 +3518,18 @@
         <!-- So why not make it longer and add Carbon Features? -->
         <!-- Hide Apps from Recents (HAFR) -->
         <activity android:name="com.aosip.owlsnest.utils.hideappfromrecents.HAFRAppListActivity" />
+
+        <!-- Pie Settings -->
+        <activity android:name="Settings$PieSettingsActivity"
+                android:label="@string/pa_pie_control_title"
+                android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+            android:value="com.aosip.owlsnest.gesture.PieSettings" />
+        </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
