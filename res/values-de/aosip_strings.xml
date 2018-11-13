@@ -402,4 +402,8 @@
     <string name="thermal_control_per_app_video_playback">Videowiedergabe</string>
     <string name="thermal_control_per_app_dialer">Telefon</string>
     <string name="thermal_control_per_app_camera">Kamera</string>
+
+    <!-- Font picker -->
+    <string name="font_picker_title">Schriftartenverwaltung</string>
+    <string name="disable_fonts_installed_title">Die Auswahl von Schriftarten ist nicht verfügbar, um Konflikte mit Substratum zu vermeiden. Deinstallieren Sie es, wenn Sie den Schriftarten-Manager verwenden möchten.</string>
 </resources>
