@@ -143,6 +143,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.aosip.owlsnest.OwlsNestSettings;
+import com.aosip.owlsnest.quicksettings.CustomHeaders;
 import com.aosip.owlsnest.advanced.SystemCategory;
 import com.aosip.owlsnest.buttons.NavigationCategory;
 import com.aosip.owlsnest.buttons.PowermenuCategory;
@@ -308,6 +309,7 @@ public class SettingsGateway {
             FlingSettingsActivity.class.getName(),
             PulseSettingsActivity.class.getName(),
             BatteryLightSettings.class.getName(),
+            CustomHeaders.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -352,6 +354,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.CustomHeadersActivity.class.getName()
     };
 }
