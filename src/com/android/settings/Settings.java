@@ -179,6 +179,7 @@ public class Settings extends SettingsActivity {
     public static class SmartbarSettingsActivity extends SettingsActivity {}
     public static class FlingSettingsActivity extends SettingsActivity {}
     public static class PulseSettingsActivity extends SettingsActivity {}
+    public static class GamingModeActivity extends SettingsActivity {}
 
     // AOSiP Settings
     public static class OwlsNestSettingsActivity extends SettingsActivity {}

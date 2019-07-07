@@ -25,6 +25,7 @@ import com.android.settings.PrivacySettings;
 import com.android.settings.Settings;
 import com.android.settings.Settings.FlingSettingsActivity;
 import com.android.settings.Settings.NavigationSettingsActivity;
+import com.android.settings.Settings.GamingModeActivity;
 import com.android.settings.Settings.PulseSettingsActivity;
 import com.android.settings.Settings.SmartbarSettingsActivity;
 import com.android.settings.TestingSettings;
@@ -147,6 +148,7 @@ import com.aosip.owlsnest.OwlsNestSettings;
 import com.aosip.owlsnest.quicksettings.CustomHeaders;
 import com.aosip.owlsnest.advanced.SystemCategory;
 import com.aosip.owlsnest.buttons.NavigationCategory;
+import com.aosip.owlsnest.advanced.GamingMode;
 import com.aosip.owlsnest.buttons.PowermenuCategory;
 import com.aosip.owlsnest.buttons.VolumeCategory;
 import com.aosip.owlsnest.gesture.GestureCategory;
@@ -312,6 +314,7 @@ public class SettingsGateway {
             BatteryLightSettings.class.getName(),
             CustomHeaders.class.getName(),
             RunningServices.class.getName(),
+            GamingMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -358,6 +361,7 @@ public class SettingsGateway {
             Settings.FlingSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),
             Settings.CustomHeadersActivity.class.getName(),
-            Settings.DevRunningServicesActivity.class.getName()
+            Settings.DevRunningServicesActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName()
     };
 }
