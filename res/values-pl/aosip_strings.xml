@@ -402,4 +402,22 @@
     <string name="thermal_control_per_app_video_playback">Odtwarzanie wideo</string>
     <string name="thermal_control_per_app_dialer">Telefon</string>
     <string name="thermal_control_per_app_camera">Aparat</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Czcionka</string>
+    <string name="disable_fonts_installed_title">Wybór czcionki jest niedostępny w celu uniknięcia konfliktów z Substratum. Odinstaluj tę aplikację, aby użyć tej funkcji.</string>
+    <string name="font_picker_progress">Stosowanie nowej czcionki\u2026</string>
+    <!-- Make FP detection in pocket mode configurable -->
+    <string name="pocket_judge_fp_title">Zezwól na wykrywanie czytnika linii papilarnych w trybie kieszonkowym</string>
+    <string name="pocket_judge_fp_summary">Nasłuchuj czytnika linii papilarnych, gdy wykrywanie kieszeni jest aktywne</string>
+    <!-- Toolbar -->
+    <string name="settings_head_title">DerpFest</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Styl przełącznika</string>
+    <string name="switch_default">Domyślny</string>
+    <string name="switch_md2">Material Design 2</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Wąski</string>
+    <string name="switch_contained">Szeroki</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_stockish">Stockish</string>
 </resources>
