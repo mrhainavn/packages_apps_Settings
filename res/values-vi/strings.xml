@@ -186,6 +186,7 @@
     <string name="connected_device_add_device_summary" msgid="4041865900298680338">"Bluetooth sẽ bật để ghép nối"</string>
     <string name="connected_device_connections_title" msgid="5988939345181466770">"Tùy chọn kết nối"</string>
     <string name="connected_device_previously_connected_title" msgid="491765792822244604">"Các thiết bị đã kết nối trước đây"</string>
+    <string name="previous_connected_see_all">Xem tất cả</string>
     <string name="date_and_time" msgid="9062980487860757694">"Ngày và giờ"</string>
     <string name="choose_timezone" msgid="1362834506479536274">"Chọn múi giờ"</string>
     <!-- no translation found for intent_sender_data_label (6332324780477289261) -->

@@ -78,16 +78,27 @@
     <string name="less_notification_sounds_2m">Mỗi 2 phút</string>
     <string name="less_notification_sounds_5m">Mỗi 5 phút</string>
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Kiểu ô cài đặt nhanh</string>
-    <string name="qstile_default">(mặc định) Hình tròn</string>
-    <string name="qstile_squircle">Hình vuông bo tròn</string>
-    <string name="qstile_justicons">Biểu tượng không có vòng tròn</string>
-    <string name="qstile_inkdrop">Vệt mực</string>
-    <string name="qstile_shishu_nights">Đêm Shishu</string>
-    <string name="qstile_circle_dualtone">Vòng tròn hai màu</string>
-    <string name="qstile_dottedcircle">Vòng tròn nét đứt</string>
-    <string name="qstile_shishuink">Mực Shishu</string>
-    <string name="qstile_attemptmountain">Ngọn núi hùng vĩ</string>
+    <string name="qs_tile_style_title">Kiểu cách ô cài đặt nhanh</string>
+    <string name="qstile_default">Kiểu hình tròn (mặc định)</string>
+    <string name="qstile_squircle">Kiểu hình vuông cạnh bo tròn</string>
+    <string name="qstile_justicons">Kiểu biểu tượng không có vòng tròn</string>
+    <string name="qstile_inkdrop">Kiểu giọt mực</string>
+    <string name="qstile_shishu_nights">Kiểu đêm Shishu</string>
+    <string name="qstile_circle_gradient">Kiểu vòng tròn với bộ màu chuyển sắc</string>
+    <string name="qstile_wavey">Kiểu sóng</string>
+    <string name="qstile_circle_dualtone">Kiểu vòng tròn hai tông màu</string>
+    <string name="qstile_memedo_square">Kiểu hình vuông Memedo</string>
+    <string name="qstile_pokesign">Kiểu Pokesign</string>
+    <string name="qstile_ninja">Kiểu Ninja</string>
+    <string name="qstile_dottedcircle">Kiểu vòng tròn nét đứt</string>
+    <string name="qstile_shishuink">Kiểu mực Shishu</string>
+    <string name="qstile_attemptmountain">Kiểu ngọn núi hùng vĩ</string>
+    <string name="qstile_cookie">Kiểu Cookie</string>
+    <string name="qstile_cosmos">Kiểu vũ trụ</string>
+    <string name="qstile_neonlike">Kiểu đèn neon</string>
+    <string name="qstile_oos">Kiểu OxygenOS</string>
+    <string name="qstile_triangles">Kiểu hình tam giác</string>
+    <string name="qstile_divided">Kiểu vòng tròn phân chia</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <!-- Manual provisioning support -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> là <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
@@ -367,11 +378,11 @@
     <!-- Selinux -->
     <string name="selinux_status">Trạng thái SELinux</string>
     <string name="selinux_status_disabled">Đã vô hiệu</string>
-    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_permissive">Cho phép</string>
     <string name="selinux_status_enforcing">Thực thi</string>
     <!-- Changelog -->
-    <string name="changelog_title">Lịch sử cập nhật</string>
-    <string name="changelog_summary">Những thay đổi tiếp theo</string>
+    <string name="changelog_title">Những thay đổi</string>
+    <string name="changelog_summary">Những thay đổi cụ thể trên gerrit</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng chuông &amp; thông báo</string>
     <!-- Media gestures -->
@@ -402,4 +413,31 @@
     <string name="thermal_control_per_app_video_playback">Phát video</string>
     <string name="thermal_control_per_app_dialer">Gọi điện thoại</string>
     <string name="thermal_control_per_app_camera">Máy ảnh</string>
+    <!-- Font picker -->
+    <string name="font_picker_title">Phông chữ</string>
+    <string name="disable_fonts_installed_title">Bộ chọn phông chữ không khả dụng để tránh xung đột với Substratum. Gỡ cài đặt nó nếu bạn muốn sử dụng trình chọn phông chữ.</string>
+    <string name="font_picker_progress">Áp dụng phông chữ mới\u2026</string>
+    <!-- Make FP detection in pocket mode configurable -->
+    <string name="pocket_judge_fp_title">Cho phép mở khóa vân tay ở chế độ bỏ túi</string>
+    <string name="pocket_judge_fp_summary">Cho phép mở khóa vân tay khi phát hiện chế độ bỏ túi đang hoạt động</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Sạc thông minh</string>
+    <string name="smart_charging_summary">Đặt mức sạc tối đa</string>
+    <string name="smart_charging_switch_title">Sử dụng sạc thông minh</string>
+    <string name="smart_charging_level_title">Mức dừng kích hoạt</string>
+    <string name="smart_charging_resume_level_title">Mức bắt đầu kích hoạt</string>
+    <string name="smart_charging_reset_stats_title">Đặt lại thống kê pin</string>
+    <string name="smart_charging_reset_stats_summary">Đặt lại thống kê pin sau khi đạt mức sạc do người dùng xác định</string>
+    <string name="smart_charging_footer">Sạc thông minh cho phép bạn đặt mức sạc tối đa để kéo dài tuổi thọ của pin</string>
+    <!-- Switch styles -->
+    <string name="switch_style_title">Kiểu chuyển đổi</string>
+    <string name="switch_default">Mặc định</string>
+    <string name="switch_md2">Thiết kế vật liệu 2</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Thu hẹp</string>
+    <string name="switch_contained">Chứa đựng</string>
+    <string name="switch_retro">Hoài niệm</string>
+    <string name="switch_stockish">Kho</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Quá trình nền</string>
 </resources>
