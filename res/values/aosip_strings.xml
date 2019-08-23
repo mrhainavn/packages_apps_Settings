@@ -21,8 +21,8 @@
     <string name="aosip_version_default">Unknown</string>
 
     <!-- OwlsNest -->
-    <string name="owlsnest_title">OwlsNest</string>
-    <string name="owlsnest_activity_summary">Home Of the Kronic</string>
+    <string name="owlsnest_title">DerpFest</string>
+    <string name="owlsnest_activity_summary">Customize advanced interface from DerpFest</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
