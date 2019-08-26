@@ -17,11 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOSiP Version -->
-    <string name="aosip_version">Phiên bản DerpFest</string>
+    <string name="aosip_version">Bản dựng DerpFest</string>
     <string name="aosip_version_default">Không rõ</string>
     <!-- OwlsNest -->
     <string name="owlsnest_title">DerpFest</string>
-    <string name="owlsnest_activity_summary">Tùy chỉnh giao diện nâng cao từ DerpFest</string>
+    <string name="owlsnest_activity_summary">Tùy chỉnh giao diện và tính năng DerpFest</string>
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Cập nhật AOSiP</string>
     <string name="update_settings_summary">Kiểm tra cập nhật AOSiP</string>

@@ -17,12 +17,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- AOSiP Version -->
-    <string name="aosip_version">AOSiP Build</string>
+    <string name="aosip_version">DerpFest Build</string>
     <string name="aosip_version_default">Unknown</string>
 
     <!-- OwlsNest -->
     <string name="owlsnest_title">DerpFest</string>
-    <string name="owlsnest_activity_summary">Customize advanced interface from DerpFest</string>
+    <string name="owlsnest_activity_summary">Customize interface and features DerpFest</string>
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
