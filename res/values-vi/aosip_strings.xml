@@ -440,4 +440,6 @@
     <string name="switch_stockish">Kho</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Quá trình nền</string>
+    <!-- OmniJaws weather -->
+    <string name="weather_title">Thời tiết</string>
 </resources>

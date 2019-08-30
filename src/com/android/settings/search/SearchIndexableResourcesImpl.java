@@ -117,6 +117,7 @@ import com.aosip.owlsnest.statusbar.CarrierCategory;
 import com.aosip.owlsnest.statusbar.ClockDateSettings;
 import com.aosip.owlsnest.statusbar.IconsCategory;
 import com.aosip.owlsnest.statusbar.TrafficCategory;
+import com.aosip.owlsnest.lockscreen.OmniJawsSettings;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -230,7 +231,8 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(IconsCategory.class);
         addIndex(TrafficCategory.class);
         addIndex(SmartPixels.class);
-	    addIndex(BatteryLightSettings.class);
+	addIndex(BatteryLightSettings.class);
+        addIndex(OmniJawsSettings.class);
     }
 
     @Override

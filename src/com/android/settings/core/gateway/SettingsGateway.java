@@ -164,6 +164,7 @@ import com.aosip.owlsnest.statusbar.ClockDateSettings;
 import com.aosip.owlsnest.statusbar.IconsCategory;
 import com.aosip.owlsnest.statusbar.TrafficCategory;
 import com.aosip.owlsnest.advanced.SmartPixels;
+import com.aosip.owlsnest.lockscreen.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -314,7 +315,8 @@ public class SettingsGateway {
             BatteryLightSettings.class.getName(),
             CustomHeaders.class.getName(),
             RunningServices.class.getName(),
-            GamingMode.class.getName()
+            GamingMode.class.getName(),
+            OmniJawsSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
