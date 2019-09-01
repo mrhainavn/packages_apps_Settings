@@ -442,4 +442,7 @@
     <string name="background_processes_settings_title">Quá trình nền</string>
     <!-- OmniJaws weather -->
     <string name="weather_title">Thời tiết</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Cho phép máy khách sử dụng VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Cho phép các máy khách hotspot sử dụng các kết nối VPN của thiết bị này để kết nối ngược dòng</string>
 </resources>
