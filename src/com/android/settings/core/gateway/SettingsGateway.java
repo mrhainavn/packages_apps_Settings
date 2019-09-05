@@ -165,7 +165,7 @@ import com.aosip.owlsnest.statusbar.IconsCategory;
 import com.aosip.owlsnest.statusbar.TrafficCategory;
 import com.aosip.owlsnest.advanced.SmartPixels;
 import com.aosip.owlsnest.lockscreen.OmniJawsSettings;
-import com.aosip.owlsnest.gesture.PieSettingsActivity;
+import com.aosip.owlsnest.gesture.PieSettings;
 
 public class SettingsGateway {
 
@@ -318,7 +318,7 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             GamingMode.class.getName(),
             OmniJawsSettings.class.getName(),
-            PieSettingsActivity.class.getName(),
+            PieSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
