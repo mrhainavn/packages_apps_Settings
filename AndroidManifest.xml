@@ -3520,9 +3520,10 @@
         <activity android:name="com.aosip.owlsnest.utils.hideappfromrecents.HAFRAppListActivity" />
 
         <!-- Pie Settings -->
-        <activity android:name="Settings$PieSettingsActivity"
+        <!-- Pie settings activity. -->
+        <activity android:name="Settings$PieControlSettingsActivity"
                 android:label="@string/pa_pie_control_title"
-                android:taskAffinity="com.android.settings" >
+                android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />

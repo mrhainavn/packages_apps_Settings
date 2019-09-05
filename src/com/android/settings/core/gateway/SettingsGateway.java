@@ -366,7 +366,6 @@ public class SettingsGateway {
             Settings.PulseSettingsActivity.class.getName(),
             Settings.CustomHeadersActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
-            Settings.GamingModeActivity.class.getName(),
-            Settings.PieSettingsActivity.class.getName()
+            Settings.GamingModeActivity.class.getName()
     };
 }
