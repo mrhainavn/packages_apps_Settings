@@ -3514,6 +3514,10 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.aosip.owlsnest.lockscreen.OmniJawsSettings" />
         </activity>
+
+        <!-- So why not make it longer and add Carbon Features? -->
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.aosip.owlsnest.utils.hideappfromrecents.HAFRAppListActivity" />
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
