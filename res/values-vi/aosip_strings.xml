@@ -23,8 +23,8 @@
     <string name="owlsnest_title">DerpFest</string>
     <string name="owlsnest_activity_summary">Tùy chỉnh giao diện và tính năng DerpFest</string>
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">Cập nhật AOSiP</string>
-    <string name="update_settings_summary">Kiểm tra cập nhật AOSiP</string>
+    <string name="update_settings_title">Cập nhật DerpFest</string>
+    <string name="update_settings_summary">Kiểm tra phiên bản mới nhất của rom DerpFest</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Xoay màn hình</string>
     <string name="display_rotation_disabled">Tắt</string>

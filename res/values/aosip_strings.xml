@@ -25,8 +25,8 @@
     <string name="owlsnest_activity_summary">Customize interface and features DerpFest</string>
 
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">AOSiP Updater</string>
-    <string name="update_settings_summary">Check for the latest version of the rom</string>
+    <string name="update_settings_title">DerpFest Updater</string>
+    <string name="update_settings_summary">Check for the latest version of the rom DerpFest</string>
     <string name="update_package" translatable="false">org.lineageos.updater</string>
     <string name="update_activity" translatable="false">org.lineageos.updater.UpdatesActivity</string>
 
